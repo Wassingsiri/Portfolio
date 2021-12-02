@@ -1,6 +1,5 @@
 /* Här behövde jag ändra border radius i efterhand pga när jag bytte avatarbilden från temat blev den automatisk fyrkantig */
 .masthead-avatar {
-    width: 15rem;
     border-radius: 50%;
 }
 
@@ -9,7 +8,7 @@ h1,
 h2,
 h3,
 h4,
-li,
+.nav-item,
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -23,10 +22,11 @@ li {
     font-weight: bold;
 }
 
-
 .img-rounded {
     border-radius: 50%;
+
 }
+
 
 /*Färg hover knapp*/
 .btn-outline-light:hover {
@@ -35,20 +35,12 @@ li {
     border-color: #f8f9fa;
 }
 
-.text-center.textleft {
-    text-align: left !important;
-}
 
 a {
     color: #212529;
 }
 
 /*För att texten i listan ska hamna under rubriken*/
-ul.text-left {
+ul.margin {
     padding: 0;
-}
-
-/* För att flytta ner texten */
-.mt-5 {
-    margin-top: 5px;
 }

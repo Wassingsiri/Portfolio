@@ -7,13 +7,20 @@
     <!--För att sidan ska vara responsiv på olika skärmstorlekar-->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Här lägger jag min beskrivning av portfolion-->
-    <meta name="description" content="">
-    <!--Här kan jag lägga specifika ord!-->
-    <meta name="keywords" content="">
+    <meta name="description" content="Nyfiken UX Designer med gröna fingar som
+    sadlar om från
+    Trädgårdsingenjör.">
+    <!--Här kan jag ev lägga specifika ord-->
+    <meta name="keywords"
+        content="Siri Wässing, UX design, user experience, UX-design, UX designer, Design thinking, Malmö, UX Research">
 
-    <meta name="siri" content="">
+    <meta name="author" content="Siri Wässing">
 
     <title>Siri Wässing | UX Designer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/portfolio/Siri-wässing-fav.png">
+
 
     <!-- Fonter och icner-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous">
@@ -28,11 +35,7 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
 
-
-    <!-- Egna css filer
-    <link rel="stylesheet" href="css/heading.css">
-    <link rel="stylesheet" href="css/body.css">  -->
-
+    <!--Egen css fil-->
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
@@ -76,7 +79,7 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Masthead Subheading-->
-            <p class="masthead-subheading d-flex font-weight-light mb-0 ">UX Designer som
+            <p class="masthead-subheading d-flex font-weight-light mb-0 ">Nyfiken UX Designer med gröna fingar som
                 sadlar om från
                 Trädgårdsingenjör. </p>
         </div>
@@ -106,16 +109,18 @@
                             class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                             <div class="portfolio-item-caption-content text-center text-white">
                                 <h3>PIXER</h3>
-                                <p>Ett individuellt skolprojekt</p>
+                                <p>Ett individuellt skolprojekt i design thinking</p>
                             </div>
                         </div><img class="img-fluid" src="assets/img/portfolio//Pixer-mockup.png"
                             alt="En hand som håller i en mobil med dejtingappen Pixer" />
                     </div>
-                    <!--&nbsp; la jag till för att få mellanrum mellan p och a-->
-                    <p class="lead justify-content-center d-flex">Se hela prototypen i Figma &nbsp;
+                    <!--Här gjorde jag en div för att sedan lägga in mr-2 för att få space mellan <p> och <a>-->
+                    <div class="lead justify-content-center d-flex">
+                        <p class="mr-2">Se hela prototypen i Figma</p>
                         <a href="https://www.figma.com/proto/THeAFibKCKjwEZefaoyPy3/Untitled?node-id=82%3A285&scaling=scale-down&page-id=0%3A1&starting-point-node-id=82%3A285"
                             target="_blank"> här!</a>
-                    </p>
+
+                    </div>
                 </div>
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
@@ -138,7 +143,7 @@
                                 <h3>Case 3</h3>
                                 <p>Lorum ipsum dolor sit amet</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/Pixer-mockup.png" alt="Circus Tent" />
+                        </div><img class="img-fluid" src="assets/img/portfolio/dingronaoas.png" alt="Circus Tent" />
                     </div>
                     <p class="lead justify-content-center d-flex">Lorum ipsum dolor sit amet</p>
                 </div>
@@ -153,7 +158,9 @@
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
                             class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
+
+                <!--Här la jag in lext-left för att texten skulle bli lättare att läsa-->
+                <div class="modal-body text-left">
                     <div class="container">
 
                         <!-- === Namnget sektionerna i alla modalerna för att skilja dem åt. Modal-section1, Model-section2 osv beroende på case === -->
@@ -161,8 +168,10 @@
 
                         <div name="modal-section1" class="row justify-content-center">
                             <div class="col-12">
+
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Pixer</h2>
+                                <!--Här la jag in lext-center för att rubriken skulle vara i mitten och inte ärva text-left som jag satt innan-->
+                                <h2 class="portfolio-modal-title text-secondary mb-0 text-center">Pixer</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -179,13 +188,12 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-5">
-                                <h3 class="text-left">
+                                <h3>
                                     Utgick utifrån en pitch
                                 </h3>
-
-                                <p class="text-left"> Vi hade fått i uppgift att göra en app där användare skulle
+                                <p> Vi hade fått i uppgift att göra en app där användare skulle
                                     låsa upp bilder på den andre genom någon form av interaktion </p>
-                                <p class="mb-5 text-left"> För att förstå personer som dejtar och hur jag skulle lösa
+                                <p class="mb-5"> För att förstå personer som dejtar och hur jag skulle lösa
                                     uppgiften med
                                     att skapa en dejtingapp där användarna behöver prata/chatta med varandra för att
                                     låsa upp bild på personen de chattar med började jag djupdyka i ämnet. Jag började
@@ -204,10 +212,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-5">
-                                <h3 class="text-left">
+                                <h3>
                                     Vad tyckte användarna?
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Det
                                     jag fann var verkligen inte entydligt och åsikterna om vilka egenskaper som var
                                     viktiga hos en partner skiljde sig åt. Personlighet och humor
@@ -215,7 +223,7 @@
                                     viktigare än
                                     intressen och värderingar.</p>
 
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     För att få ännu mer kött på benen, djupare förståelse kring
                                     dejtingappar valde jag att göra intervjuer. Genom dessa kunde
                                     jag observera och även ställa följdfrågor kring vad de tänkte och
@@ -235,16 +243,16 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     How might we?
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Efter att ha sett ett mönster i det som framkom efter intevjuerna ville jag slå ihop
                                     det med den andra researchen jag hade gjort. Så jag gjorde en How Might We för att
                                     konkritisera vad jag skulle ta mig an och som skulle hjälpa mig att öppna upp för
                                     idéer.
                                 </p>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     Jag valde nu att definera målgruppen till unga vuxna eftersom de jag intervjuade var
                                     20-30 år. Det kan skilja mycket åldersmässigt på vad som anses snyggt rent visuellt
                                     och
@@ -262,15 +270,15 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Idégenerering och skiss!
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Jag ville på snabbast möjligast sätt bara trycka ut idéer så jag gjorde en
                                     mindmap/brainstorm med hjälp av mina HMW. Det var ett bra sätt att få någon
                                     form av översikt mellan mina olika idéer.
                                 </p>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     Efter det kunde jag börja skissa fram lösningar.
                                     Först Crazy 8 för att fort som bara den få ned bilder som dök upp i huvudet.
                                     Sen började jag forma dem till ganska klara idéer om hur jag ville ha appen.
@@ -285,16 +293,16 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Lo-fi prototyp
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Jag använde mig av Balsamiq för att på ett snabbt och enkelt sätt forma och
                                     strukturera mina idéer. Jag kunde även få input från testare och på så sätt rätta
                                     till saker som behövde förbättras eller läggas till, innan jag skulle gå över till
                                     att göra min High-Fi prototyp.
                                 </p>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     Profilbilden blir mindre pixlig genom att de som matchat interagerar med varandra
                                     genom text, musik, spel, röstmeddelande och bilder. Allt för att det ska bli enklare
                                     att konversera.
@@ -313,16 +321,16 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     High-fi prototyp
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Nu var det dags att göra allt det platta mer levande! För att testarna verkligen
                                     skulle tro att appen var så nära inpå riktig gjorde jag en prototyp i Figma. Jag
                                     utgick från mina wireframes i Balsamiq och ändrade/lade till delar efter synpunkter
                                     från testerna. Jag startade genom att samla in komponenter, färger, fonter och
                                     bilder som jag visste att jag ville använda mig utav. </p>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     Under testerna fick jag fram viktiga inputs som jag valde att gå vidare med, vilket
                                     resluterade i några ändringar/tillägg. </p>
 
@@ -336,14 +344,14 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     High-fi prototyp
                                 </h3>
-                                <p class="text-left">
+                                <p>
                                     Även om man idag redan kan klistra in en låt eller skicka en GiF så vill jag göra
                                     steget kortare genom att ha dem som tydliga val.
                                     Chatten här med Arvid har kommit en bit in, därför startar bilden på 60% </p>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     Under testerna fick jag fram viktiga inputs som jag valde att gå vidare med, vilket
                                     resluterade i några ändringar/tillägg. </p>
 
@@ -357,10 +365,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-5">
-                                <h3 class="text-left">
+                                <h3>
                                     Till nästa gång?
                                 </h3>
-                                <ul class="text-left">
+                                <ul class="margin">
                                     <li>Spärr för maxantal - Har man matchat med mer än 9 ska det komma upp en ruta med
                                         info om att man snart nått sin gräns.</li>
                                     <br>
@@ -400,12 +408,12 @@
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
                             class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-left">
                     <div class="container">
                         <div name="modal-section1" class="row justify-content-center">
                             <div class="col-12">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Case 2</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0 text-center">Case 2</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -420,10 +428,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -444,10 +452,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-lg-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -468,10 +476,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -501,12 +509,12 @@
             <div class="modal-content">
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
                             class="fas fa-times"></i></span></button>
-                <div class="modal-body text-center">
+                <div class="modal-body text-left">
                     <div class="container">
                         <div name="modal-section1" class="row justify-content-center">
                             <div class="col-12">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary mb-0">Case 3</h2>
+                                <h2 class="portfolio-modal-title text-secondary mb-0 text-center">Case 3</h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -521,10 +529,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -545,10 +553,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -569,10 +577,10 @@
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
-                                <h3 class="text-left">
+                                <h3>
                                     Rubrik
                                 </h3>
-                                <p class="mb-5 text-left">
+                                <p class="mb-5">
                                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
                                     nostrud
@@ -599,7 +607,7 @@
 
 
     <section class="page-section bg-primary text-white mb-0" id="about">
-        <div class="container">
+        <div class="container px-10">
             <!-- About Section Heading-->
             <div class="text-center">
                 <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
@@ -611,20 +619,22 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- About Section Content-->
-            <div class="row justify-content-center">
+            <div class="row justify-content-center d-flex ">
 
                 <!-- Gör att bilden tar upp 1/3 av raden-->
                 <div class="col-lg-4">
 
 
-                    <img class="img-fluid img-rounded d-block mx-auto" src="assets/img/portfolio/siriwässing.png"
+                    <img class="img-fluid img-rounded d-block mx-auto" src="assets/img/portfolio/Siri-på-cykel.jpg"
                         alt="Profilbild på Siri Wässing">
+                    <p class="text-center mb-3">Jag på min racercykel</p>
 
                 </div>
 
                 <!-- Gör att texten tar upp 2/3 av raden-->
-                <div class="col-lg-8">
-                    <p>Kan jag vara den enda trädgårdsingenjören som sadlar om till UX designer? Kan så
+                <div class="col-lg-8 px-5">
+                    <p class="lead mb-5">Kan jag vara den enda trädgårdsingenjören som sadlar om till UX designer? Kan
+                        så
                         vara och något jag ser som positivt! Det går inte att anlägga en trädgård utan att ha
                         förståelse
                         för och kunskap om vilka förutsättningar som finns på just den platsen. Det är faktiskt lite
@@ -634,13 +644,14 @@
                         process finner jag mycket intressant och jag tror att min fallenhet för kommunikation,
                         empati
                         och kreativitet kan komma väl till pass nu när jag sadlar om. </p>
-                    <p>Förutom mitt stora växtintresse gillar jag att ta en tur då och då tillsammans med
+                    <p class="lead mb-5">Förutom mitt stora växtintresse gillar jag att ta en tur då och då tillsammans
+                        med
                         min sambo på våra racercyklar. Tro det eller ej men jag pendlade flera dar i veckan fram och
                         tillbaka till Lund..! Jag lyssnar även på för mycket poddar för mitt eget bästa. Familjen är
                         väldig viktig för mig och så ofta jag kan åker jag hem till de sörmländska skogarna för att
                         få
                         vara med mig dem.</p>
-                    <p>Från tidigare arbetslivserfarenhet så vet vikten av goda kundrelationer som för mig
+                    <p class="lead">Från tidigare arbetslivserfarenhet så vet vikten av goda kundrelationer som för mig
                         har inneburit att jag på ett personligt och genuint sätt tillsammans med kunden undersökt
                         vilka
                         önskemål och behov som funnits. Jag gillar och är helt bekväm med att prata om det där lilla
@@ -657,10 +668,10 @@
             </div>
 
             <!-- About Section Button   |  Nytt CV ska in men denna har jag sen innan...-->
-            <div class="text-center mt-4">
+            <div class=" text-center mt-4">
                 <a class="btn btn-xl btn-outline-light" href="assets/Dokument/CV_Siri Wässing_Trädgårdsingenjör.pdf"
                     target="blank">
-                    <i class="fas fa-download me-2"></i>Mitt CV
+                    <i class="fas fa-download me-2 mr-2"></i>Mitt CV
                 </a>
             </div>
         </div>
@@ -702,7 +713,7 @@
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="mb-4">Find me here</h4><a class="btn btn-outline-light btn-social mx-1" target="blank"
+                    <h4 class="mb-4">FIND ME HERE</h4><a class="btn btn-outline-light btn-social mx-1" target="blank"
                         href="https://www.linkedin.com/in/siri-w%C3%A4ssing-086aa41ba/"><i
                             class="fab fa-fw fa-linkedin-in"></i></a>
                 </div>
