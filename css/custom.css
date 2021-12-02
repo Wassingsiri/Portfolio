@@ -11,20 +11,17 @@ h4,
 .nav-item,
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-
 }
 
 /* All brödtext i en font*/
 p,
 li {
     font-family: 'Nunito', sans-serif;
-    font-weight: bold;
+
 }
 
-.img-rounded {
-    border-radius: 50%;
-
+a {
+    color: #212529;
 }
 
 
@@ -33,14 +30,4 @@ li {
     color: #ffffff;
     background-color: #7a8566;
     border-color: #f8f9fa;
-}
-
-
-a {
-    color: #212529;
-}
-
-/*För att texten i listan ska hamna under rubriken*/
-ul.margin {
-    padding: 0;
 }

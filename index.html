@@ -35,13 +35,13 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
 
-    <!--Egen css fil-->
+    <!-- Egen css fil -->
     <link rel="stylesheet" href="css/custom.css">
 </head>
 
 <body id="page-top">
 
-    <!-------NAVBAR----->
+    <!------- NAVBAR ----->
 
     <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
         <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">UX DESIGNER</a>
@@ -102,7 +102,8 @@
             </div>
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
-                <!-- Portfolio Items-->
+
+                <!-- Portfolio Item 1-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div
@@ -117,11 +118,13 @@
                     <!--Här gjorde jag en div för att sedan lägga in mr-2 för att få space mellan <p> och <a>-->
                     <div class="lead justify-content-center d-flex">
                         <p class="mr-2">Se hela prototypen i Figma</p>
+                        <!-- Öpnnas i ett nytt fönster-->
                         <a href="https://www.figma.com/proto/THeAFibKCKjwEZefaoyPy3/Untitled?node-id=82%3A285&scaling=scale-down&page-id=0%3A1&starting-point-node-id=82%3A285"
-                            target="_blank"> här!</a>
-
+                            target="_blank">här!</a>
                     </div>
                 </div>
+
+                <!-- Portfolio Item 2-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                         <div
@@ -131,10 +134,12 @@
                                 <p>Lorum ipsum dolor sit amet</p>
                             </div>
                         </div><img class="img-fluid" src="assets/img/portfolio/Spelapp.png"
-                            alt="En tablett med en spelapp" />
+                            alt="En data tablet med en spelapp" />
                     </div>
                     <p class="lead justify-content-center d-flex">Lorum ipsum dolor sit amet</p>
                 </div>
+
+                <!-- Portfolio Item 3-->
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                         <div
@@ -143,13 +148,15 @@
                                 <h3>Case 3</h3>
                                 <p>Lorum ipsum dolor sit amet</p>
                             </div>
-                        </div><img class="img-fluid" src="assets/img/portfolio/dingronaoas.png" alt="Circus Tent" />
+                        </div><img class="img-fluid" src="assets/img/portfolio/dingronaoas.png"
+                            alt="En laptop med hemsidan Din gröna oas" />
                     </div>
                     <p class="lead justify-content-center d-flex">Lorum ipsum dolor sit amet</p>
                 </div>
             </div>
         </div>
     </section>
+
     <!-- Portfolio Modal, case 1-->
 
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
@@ -159,12 +166,18 @@
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
                             class="fas fa-times"></i></span></button>
 
-                <!--Här la jag in lext-left för att texten skulle bli lättare att läsa-->
+                <!--Här la jag in text-left för att texten skulle bli lättare att läsa-->
                 <div class="modal-body text-left">
                     <div class="container">
 
-                        <!-- === Namnget sektionerna i alla modalerna för att skilja dem åt. Modal-section1, Model-section2 osv beroende på case === -->
+                        <!-- =====  GÄLLER ALLA MODALER ===== 
 
+                                   Namnget sektionerna i alla modalerna för att skilja dem åt. Modal-section1, Model-section2 osv beroende på case. 
+                                   Jag har även delat upp modalerna i två, ena columnen för bild, den andra för text. Två divar med col i en row div. 
+                                   Jag har satt xl för att det skulle bli mer responsivt med texten bredvid bilderna för mellanstora skärmar.
+                                   Jag har lagt mb-5 på den sista <p> i varje section för att få mer space emellan vid mobilläge  
+                                       
+                                                                                                                                                ===== -->
 
                         <div name="modal-section1" class="row justify-content-center">
                             <div class="col-12">
@@ -179,9 +192,7 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                             </div>
-                            <!-- Delar upp modalen i två, ena columnen för bild, den andra för text -->
                             <div class="col-xl-7">
-
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Pixer.png"
                                     alt="En hand som håller i en mobil med dejtingappen Pixer" />
@@ -203,8 +214,6 @@
                         </div>
 
                         <div name="modal-section2" class="row justify-content-center">
-
-
                             <div class="col-xl-7">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Miro.png"
@@ -222,7 +231,6 @@
                                     verkade vara
                                     viktigare än
                                     intressen och värderingar.</p>
-
                                 <p class="mb-5">
                                     För att få ännu mer kött på benen, djupare förståelse kring
                                     dejtingappar valde jag att göra intervjuer. Genom dessa kunde
@@ -266,7 +274,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Miro2.png"
-                                    alt="Digital anteckningstavla med en mindmap" />
+                                    alt="Digital anteckningstavla med en mindmap samt skisser" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -289,7 +297,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lo-fi prototyp.png"
-                                    alt="Log Cabin" />
+                                    alt="Lo-fi prototyp för Pixer" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -317,7 +325,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Hi-fi prototyp.png"
-                                    alt="Log Cabin" />
+                                    alt="Hi-fi prototyp för Pixer" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -340,7 +348,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Hi-fi prototyp 2.png"
-                                    alt="Log Cabin" />
+                                    alt="Hi-fi prototyp för Pixer" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -361,14 +369,14 @@
                             <div class="col-xl-7">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/åsikter.png"
-                                    alt="Log Cabin" />
+                                    alt="Åsikter från tester i pratbubblor" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-5">
                                 <h3>
                                     Till nästa gång?
                                 </h3>
-                                <ul class="margin">
+                                <ul class="p-2">
                                     <li>Spärr för maxantal - Har man matchat med mer än 9 ska det komma upp en ruta med
                                         info om att man snart nått sin gräns.</li>
                                     <br>
@@ -447,8 +455,7 @@
                         <div name="modal-section2" class="row justify-content-center">
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png"
-                                    alt="Log Cabin" />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="Cake" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-lg-4">
@@ -471,8 +478,7 @@
                         <div name="modal-section3" class="row justify-content-center">
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png"
-                                    alt="Log Cabin" />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="Game" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -503,6 +509,7 @@
     </div>
 
     <!-- Portfolio Modal, case 3-->
+
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
         aria-labelledby="#portfolioModal3Label" aria-hidden="true">
         <div class="modal-dialog modal-xl" role="document">
@@ -525,7 +532,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png"
-                                    alt="Log Cabin" />
+                                    alt="Submarine" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -549,7 +556,7 @@
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
                                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png"
-                                    alt="Log Cabin" />
+                                    alt="Circus" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -572,8 +579,7 @@
                         <div name="modal-section3" class="row justify-content-center">
                             <div class="col-xl-8">
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png"
-                                    alt="Log Cabin" />
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="safe" />
                             </div>
                             <!-- Portfolio Modal - Text-->
                             <div class="col-xl-4">
@@ -603,14 +609,14 @@
         </div>
     </div>
 
-    <!-------ABOUT SECTION ------>
+    <!------- ABOUT SECTION ------>
 
 
     <section class="page-section bg-primary text-white mb-0" id="about">
         <div class="container px-10">
             <!-- About Section Heading-->
             <div class="text-center">
-                <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+                <h2 class="page-section-heading d-inline-block text-white">Who am I?</h2>
             </div>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
@@ -621,17 +627,15 @@
             <!-- About Section Content-->
             <div class="row justify-content-center d-flex ">
 
-                <!-- Gör att bilden tar upp 1/3 av raden-->
+                <!-- Gör att bilden tar upp 1/3 av raden på stora skärmar-->
                 <div class="col-lg-4">
-
-
-                    <img class="img-fluid img-rounded d-block mx-auto" src="assets/img/portfolio/Siri-på-cykel.jpg"
-                        alt="Profilbild på Siri Wässing">
+                    <img class="img-fluid rounded-circle d-block mx-auto" src="assets/img/portfolio/Siri-på-cykel.jpg"
+                        alt="Siri Wässing på en cykel">
                     <p class="text-center mb-3">Jag på min racercykel</p>
 
                 </div>
 
-                <!-- Gör att texten tar upp 2/3 av raden-->
+                <!-- Gör att texten tar upp 2/3 av raden på stora skärmar-->
                 <div class="col-lg-8 px-5">
                     <p class="lead mb-5">Kan jag vara den enda trädgårdsingenjören som sadlar om till UX designer? Kan
                         så
@@ -663,12 +667,14 @@
                         att få ett klimat av kreativt bollande. Folk älskar att prata om sig själva och sina
                         upplevelser
                         och som UXare vill jag med rätt nycklar få folk att öppna upp!</p>
+
                 </div>
 
             </div>
 
             <!-- About Section Button   |  Nytt CV ska in men denna har jag sen innan...-->
             <div class=" text-center mt-4">
+                <!-- Öppnas i ett nytt fönster-->
                 <a class="btn btn-xl btn-outline-light" href="assets/Dokument/CV_Siri Wässing_Trädgårdsingenjör.pdf"
                     target="blank">
                     <i class="fas fa-download me-2 mr-2"></i>Mitt CV
@@ -713,6 +719,7 @@
                 </div>
                 <!-- Footer Social Icons-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
+                    <!-- Öppnas i ett nytt fönster-->
                     <h4 class="mb-4">FIND ME HERE</h4><a class="btn btn-outline-light btn-social mx-1" target="blank"
                         href="https://www.linkedin.com/in/siri-w%C3%A4ssing-086aa41ba/"><i
                             class="fab fa-fw fa-linkedin-in"></i></a>
